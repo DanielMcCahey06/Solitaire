@@ -91,7 +91,7 @@ public class CardPile implements Iterable<Card>{
             Card topCard = pile.get(pile.size()-1);
             System.out.print(topCard);
         }else {
-            System.out.print("[ ]"); // Change this message if you want
+            System.out.print("[ ]  "); // Change this message if you want
         }
     }
 }
